@@ -1,0 +1,150 @@
+@font-face {
+    font-family: regular;
+    src: url(AtkinsonHyperlegible-Regular.ttf);
+}
+
+@font-face {
+    font-family: boldd;
+    src: url(AtkinsonHyperlegible-Bold.ttf);
+}
+
+body{
+    background-color: #f3eee4;
+
+    margin: 0;
+    padding: 0;
+}
+
+.teqsti{
+    margin-left: 80px;
+    margin-right: 40%;
+}
+
+h1{
+    font-family: boldd ;
+    font-style: normal;
+    font-size: 60px;
+
+    color: #1c2334;
+}
+
+h3{
+    font-family: boldd ;
+    font-style: normal;
+    font-size: 40px;
+
+    margin-bottom: 0px;
+
+    color: #1c2334;
+}
+
+p{
+    font-family: regular;
+    font-style: normal;
+    font-size: 25px;
+
+    color: #1c2334;
+}
+
+span{
+    font-family: regular;
+    font-style: normal;
+    font-size: 25px;
+
+    color: #bb1450;
+}
+
+.image{
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 80px;
+}
+
+.image > p{
+    margin-right: 15%;
+}
+
+img{
+    border-radius: 10px;
+}
+.image > img{
+    padding-top: 150px;
+    padding-right: 80px;
+
+    height: 200px;
+    width: 300px;
+}
+
+.card{
+    background-color: #e5bf55;
+
+    height: 600px;
+
+    text-align: center;
+}
+
+.card > h1 {
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 50px;
+}
+
+.card > p{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+u{
+    text-decoration-color: #bb1450;
+}
+
+.buttons{
+    padding-top: 60px;
+}
+
+.check{
+    background-color: #1c2334;
+    border-radius: 30px;
+    border: 2px solid #bb1450;
+
+    height: 50px;
+    width: 300px;
+
+    font-family: regular;
+    font-style: normal;
+    font-size: 30px;
+
+    color: white;
+}
+
+.follow{
+    background-color: #e5bf55;
+    border-radius: 30px;
+    border: 2px solid #1c2334;
+
+    height: 50px;
+    width: 400px;
+
+    font-family: regular;
+    font-style: normal;
+    font-size: 30px;
+}
+
+a:link{
+    color: #1c2334;
+    text-decoration: none;
+}
+
+
+
+nav{
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    text-align: center;
+
+    word-spacing: 20px;
+}
